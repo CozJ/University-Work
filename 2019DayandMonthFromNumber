@@ -1,0 +1,101 @@
+// 28034021_assignment1_2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include "pch.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int date; //global variable to be set in main and also used in dayResult. 
+
+void dayResult(int days)
+{
+	int DaysPassed;
+	DaysPassed = (date + days); // adding date to days to get how many days have passed this year.
+	int ModDay = DaysPassed % 7; // modding the daysPassed to get a value from 0 to 6. this means that you can derive the day from the output.
+	switch (ModDay) // switch case to derive the day from result.
+	{
+	case 0:
+		cout << "The day is Monday"; break;
+	case 1:
+		cout << "The day is Tuesday"; break;
+	case 2:
+		cout << "The day is Wednesday"; break;
+	case 3:
+		cout << "The day is Thursday"; break;
+	case 4:
+		cout << "The day is Friday"; break;
+	case 5:
+		cout << "The day is Saturday"; break;
+	case 6:
+		cout << "The day is Sunday"; break;
+	}
+
+}
+
+void daysInMonths(string month) //used to get a value depending on the month entered.
+{
+	int days;
+
+	if (month == "January")
+	{
+		days = 0; // day zero is the start of january e.g a tuesday.
+	}
+	else if (month == "February")
+	{
+		days = 31; 
+	}
+	else if (month == "March")
+	{
+		days = 59;
+	}
+	else if (month == "April")
+	{
+		days = 90;
+	}
+	else if (month == "May")
+	{
+		days = 120; // for every month the amount of days is increased to show how many days have passed to the start of the month.
+	}
+	else if (month == "June")
+	{
+		days = 151;
+	}
+	else if (month == "July")
+	{
+		days = 181;
+	}
+	else if (month == "August")
+	{
+		days = 212;
+	}
+	else if (month == "September")
+	{
+		days = 243;
+	}
+	else if (month == "October")
+	{
+		days = 273;
+	}
+	else if (month == "November")
+	{
+		days = 304;
+	}
+	else if (month == "December")
+	{
+		days = 335;
+	}
+	dayResult(days); // passes the days value to the day Result procedure.
+}
+
+int main()
+{
+	string month;
+    cout << "Find Day From Date"<< "\n";
+	cout << "Insert Month" << "\n";
+	cin >> month;
+	cout << "Insert Date" << "\n";
+	cin >> date;
+	daysInMonths(month); // runs days in month procedure.
+}

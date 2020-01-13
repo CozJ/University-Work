@@ -1,0 +1,10 @@
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe.config
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.pdb
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.csprojAssemblyReference.cache
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.Form1.resources
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.Properties.Resources.resources
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.csproj.GenerateResource.cache
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.csproj.CoreCompileInputs.cache
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.exe
+C:\Users\corey\OneDrive\Work And Education\2019-20 Uni Work\Component Programming\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.pdb

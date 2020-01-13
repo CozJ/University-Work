@@ -1,0 +1,201 @@
+// 28034021_assignment3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include "pch.h"
+#include <iostream>
+#include <cmath>
+#include <stdio.h>
+#include <stdlib.h> 
+#include <time.h>
+
+using namespace std;
+
+int GetEight(int i)
+{
+	int modByUnits = i % 10;
+	int modByTens = (i / 10) % 10;
+	int modByHundreds = (i / 100) % 10;
+	int modByThousands = (i / 1000) % 10;
+	if ((modByThousands == 2) || (modByHundreds == 2) || (modByTens == 2) || (modByUnits == 2))
+	{
+		return i;
+	}
+	else
+	{
+		return NULL;
+	}
+}
+int GetTwo(int i)
+{
+	int modByUnits = i % 10;
+	int modByTens = (i / 10) % 10;
+	int modByHundreds = (i / 100) % 10;
+	int modByThousands = (i / 1000) % 10;
+	if ((modByThousands == 8) || (modByHundreds == 8) || (modByTens == 8) || (modByUnits == 8))
+	{
+		return i;
+	}
+	else
+	{
+		return NULL;
+	}
+}
+
+void PrintTwoOrEight()
+{
+	int amountofnumbers = 0;
+	for (int i = 1000; i < 2001; i++)
+	{
+		if (GetTwo(i) != GetEight(i))
+		{
+			if (GetTwo(i) != 0)
+			{
+				cout << GetTwo(i) << "\n";
+				amountofnumbers++;
+			}
+			if (GetEight(i) != 0)
+			{
+				cout << GetEight(i) << "\n";
+				amountofnumbers++;
+			}
+		}
+		else if (GetTwo(i) == GetEight(i))
+		{
+			if (GetTwo(i) != 0)
+			{
+				cout << GetTwo(i) << "\n";
+				amountofnumbers++;
+			}
+		}
+	}
+	cout << amountofnumbers <<" Primes between 1000 and 2000 inclusive\n";
+}
+
+int SumTwoOrEight(bool FromAvg)
+{
+	int sumOfTwos = 0;
+	int sumOfEights = 0;
+	int Twos = 0;
+	int Eights = 0;
+	int valid = 0;
+	for (int i = 1000; i < 2001; i++)
+	{
+		if (GetTwo(i) != GetEight(i))
+		{
+			if (GetTwo(i) != 0)
+			{
+				Twos = GetTwo(i);
+				sumOfTwos = sumOfTwos + Twos;
+				valid++;
+			}
+			if (GetEight(i) != 0)
+			{
+				Eights = GetEight(i);
+				sumOfEights = sumOfEights + Eights;
+				valid++;
+			}
+		}
+		else if (GetTwo(i) == GetEight(i))
+		{
+			if (GetTwo(i) != 0)
+			{
+				Twos = GetTwo(i);
+				sumOfTwos = sumOfTwos + Twos;
+				valid++;
+			}
+		}
+	}
+	if(FromAvg == true){
+	return valid;
+	}
+	if (FromAvg == false) {
+		int total = (sumOfTwos + sumOfEights);
+		cout << total;
+		return total;
+	}
+	
+}
+void AvgTwoOrEight()
+{
+		double total;
+		int AmountValid;
+		double result;
+		bool FromAvg = false;
+		total = SumTwoOrEight(FromAvg);
+		FromAvg = true;
+		AmountValid = SumTwoOrEight(FromAvg);
+		cout << " / " << AmountValid << " = Average:" << (total/AmountValid) << "\n";
+}
+
+bool Continue()
+{
+	char Continue;
+	bool option;
+	cout << "\nDo you want to continue?  (Y : yes, N : no) :";
+	cin >> Continue;
+	if (Continue == 'Y')
+	{
+		option = true;
+		return option;
+	}
+	if (Continue == 'N')
+	{
+		option = false;
+		return option;
+	}
+	else
+	{
+		option = true;
+		return option;
+	}
+}
+
+int main()
+{
+
+	bool loopMenu = true;
+	int option;
+	bool FromAvg = false;
+	while (loopMenu == true)
+	{
+		cout << "=========================================================================================\n";
+		cout << "1 : numbers between 1000 to 2000 inclusive that contain either of the digits 2 or 8\n";
+		cout << "2 : Sum the numbers 1000 to 2000 that contain either of the digits 2 or 8\n";
+		cout << "3 : average of the numbers between 1000 and 2000 that contain either of the digits 2 or 8\n";
+		cout << "4 : Exit\n";
+		cout << "=========================================================================================\n";
+		cout << "Select 1 to 4 from the menu above : ";
+		cin >> option;
+		switch (option) {
+		case 1:
+			PrintTwoOrEight();
+			loopMenu = Continue();
+			break;
+		case 2:
+			FromAvg = false;
+			SumTwoOrEight(FromAvg);
+			loopMenu = Continue();
+			break;
+		case 3:
+			AvgTwoOrEight();
+			loopMenu = Continue();
+			break;
+		case 4:
+			loopMenu = false;
+			break;
+		default:
+			break;
+		}
+	}
+}
+
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Debug program: F5 or Debug > Start Debugging menu
+
+// Tips for Getting Started: 
+//   1. Use the Solution Explorer window to add/manage files
+//   2. Use the Team Explorer window to connect to source control
+//   3. Use the Output window to see build output and other messages
+//   4. Use the Error List window to view errors
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

@@ -1,0 +1,11 @@
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\bin\Debug\netcoreapp2.1\FizzBuzz String.deps.json
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\bin\Debug\netcoreapp2.1\FizzBuzz String.runtimeconfig.json
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\bin\Debug\netcoreapp2.1\FizzBuzz String.runtimeconfig.dev.json
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\bin\Debug\netcoreapp2.1\FizzBuzz String.dll
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\bin\Debug\netcoreapp2.1\FizzBuzz String.pdb
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\obj\Debug\netcoreapp2.1\FizzBuzz String.csprojAssemblyReference.cache
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\obj\Debug\netcoreapp2.1\FizzBuzz String.csproj.CoreCompileInputs.cache
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\obj\Debug\netcoreapp2.1\FizzBuzz String.AssemblyInfoInputs.cache
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\obj\Debug\netcoreapp2.1\FizzBuzz String.AssemblyInfo.cs
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\obj\Debug\netcoreapp2.1\FizzBuzz String.dll
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\FizzBuzz String Method\FizzBuzz String\FizzBuzz String\obj\Debug\netcoreapp2.1\FizzBuzz String.pdb

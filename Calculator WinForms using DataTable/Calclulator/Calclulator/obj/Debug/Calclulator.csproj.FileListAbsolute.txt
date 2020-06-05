@@ -1,0 +1,10 @@
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.csprojAssemblyReference.cache
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.Form1.resources
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.Properties.Resources.resources
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.csproj.GenerateResource.cache
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.csproj.CoreCompileInputs.cache
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\bin\Debug\Calclulator.exe.config
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\bin\Debug\Calclulator.exe
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\bin\Debug\Calclulator.pdb
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.exe
+C:\Users\corey\OneDrive\Work And Education\Quarantine Projects\Calculator WinForms\Calclulator\Calclulator\obj\Debug\Calclulator.pdb
